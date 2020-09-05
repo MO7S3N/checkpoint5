@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MiniwordComponent } from './directives/miniword/miniword.component';
 import { FormsModule } from '@angular/forms';
+import { ThemeschangeComponent } from './directives/themeschange/themeschange.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MiniwordComponent
+    MiniwordComponent,
+    ThemeschangeComponent
   ],
   imports: [
     BrowserModule,
