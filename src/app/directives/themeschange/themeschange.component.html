@@ -1,4 +1,16 @@
+<input type="text" appRainbow>
+
+<p appHighlight>
+  contenu
+</p>
+
+
+
 <p
+ appHighlight
+ [in]="'blue'"
+ [out]="'pink'"
+
  [ngClass]="{
    theme1:theme=='theme1',
    theme2:theme=='theme2',
@@ -20,3 +32,10 @@
 <button (click)="changetheme('theme3')" class="btn btn-primary">
   theme 3
 </button>
+
+<div appHighlight
+[in]="'lightgray'"
+[out]="'purple'">
+
+test apphighliht
+</div>

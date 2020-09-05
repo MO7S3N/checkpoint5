@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { MiniwordComponent } from './directives/miniword/miniword.component';
 import { FormsModule } from '@angular/forms';
 import { ThemeschangeComponent } from './directives/themeschange/themeschange.component';
+import { RainbowDirective } from './directives/rainbow.directive';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MiniwordComponent,
-    ThemeschangeComponent
+    ThemeschangeComponent,
+    RainbowDirective,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

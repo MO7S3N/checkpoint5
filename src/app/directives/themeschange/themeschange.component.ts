@@ -23,5 +23,4 @@ export class ThemeschangeComponent implements OnInit {
         this.theme=theme;
       }
   }
-
 }
