@@ -1,0 +1,16 @@
+<p>ngfor works!</p>
+
+<ul class="list-group">
+  <li
+    *ngFor="let name of names; let indice = index;let isFirst= first;let islast=last; let isodd=odd;let iseven=even"
+    class= "list-group-item "
+    [ngClass]="{
+                first:isFirst,
+                last:islast && !islast,
+                odd:isodd && !isFirst,
+                even:iseven
+               }"
+      >
+        {{indice +1}} : {{name}}
+  </li>
+</ul>

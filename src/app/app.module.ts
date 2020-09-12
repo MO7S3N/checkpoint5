@@ -8,6 +8,9 @@ import { FormsModule } from '@angular/forms';
 import { ThemeschangeComponent } from './directives/themeschange/themeschange.component';
 import { RainbowDirective } from './directives/rainbow.directive';
 import { HighlightDirective } from './directives/highlight.directive';
+import { IfComponent } from './directives/if/if.component';
+import { NgforComponent } from './directives/ngfor/ngfor.component';
+import { ShowparagrapheComponent } from './showparagraphe/showparagraphe.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { HighlightDirective } from './directives/highlight.directive';
     MiniwordComponent,
     ThemeschangeComponent,
     RainbowDirective,
-    HighlightDirective
+    HighlightDirective,
+    IfComponent,
+    NgforComponent,
+    ShowparagrapheComponent
   ],
   imports: [
     BrowserModule,
